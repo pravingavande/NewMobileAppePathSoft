@@ -27,6 +27,10 @@ class AuthTokenManager @Inject constructor(
         return prefs.getString(KEY_TOKEN, null)
     }
     
+    fun isLoggedIn(): Boolean {
+        return getToken() != null
+    }
+    
     fun clearToken() {
         prefs.edit().remove(KEY_TOKEN).apply()
     }
