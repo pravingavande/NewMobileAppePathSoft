@@ -49,9 +49,10 @@ See `app/src/main/java/com/pathsoft/mobile/ui/theme/` for full design system imp
 
 ### Configuration
 
-1. **Update Base URL**: 
-   - Open `app/src/main/java/com/pathsoft/mobile/data/api/ApiModule.kt`
-   - Update `BASE_URL` constant with your production API URL
+1. **API Base URL**: 
+   - Already configured to live API: `https://dotnet-api-752824163690.asia-south1.run.app/api/`
+   - Located in: `app/src/main/java/com/pathsoft/mobile/data/api/ApiModule.kt`
+   - No changes needed unless you want to use a different endpoint
 
 2. **Build the Project**:
    ```bash

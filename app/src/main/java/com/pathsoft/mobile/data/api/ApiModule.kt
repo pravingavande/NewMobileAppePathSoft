@@ -35,7 +35,7 @@ class AuthInterceptor @Inject constructor(
 @Module
 @InstallIn(SingletonComponent::class)
 object ApiModule {
-    private const val BASE_URL = "https://localhost:7069/api/"
+    private const val BASE_URL = "https://dotnet-api-752824163690.asia-south1.run.app/api/"
     
     @Provides
     @Singleton
