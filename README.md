@@ -1,5 +1,4 @@
-# PathSoft Mobile Application
-
+# PathSoft Mobile Application- Development Started from 01.02.2026
 A Kotlin Android mobile application that integrates with the PathSoft Web Angular Frontend and Backend API. The mobile app replicates the web application's functionality while providing an optimized mobile user experience.
 
 ## 🏗️ Project Structure
